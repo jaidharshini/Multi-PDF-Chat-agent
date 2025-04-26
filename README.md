@@ -1,76 +1,63 @@
 # Multi-PDF-Chat-agent
 The Multi-PDF's Chat Agent is a Streamlit-based web application designed to facilitate interactive conversations with a chatbot. 
 
-📝 Overview
-Multi-PDFs Chat Agent is a Streamlit-based web application that enables users to chat with multiple PDF files.
-It extracts text from uploaded PDFs, builds a searchable knowledge base, and powers real-time conversations using generative AI.
+# 📚 Multi-PDF-s ChatApp AI Agent 🤖
 
-🎯 How It Works
-Workflow:
+Meet MultiPDF Chat AI App! 🚀  
+Chat seamlessly with multiple PDFs using LangChain, Google Gemini Pro & FAISS Vector DB with Streamlit.  
+Get instant, accurate responses powered by Google's Gemini OpenSource Language Model. 📚💬  
+**Transform your PDF experience today!** 🔥✨
 
-PDF Loading: Upload and extract text content from multiple PDF documents.
+---
 
-Text Chunking: Split extracted text into manageable chunks for better processing.
+## 📄 Description
 
-Embeddings Generation: Convert text chunks into vector embeddings using an AI model.
+The Multi-PDF's Chat Agent is a Streamlit-based web application designed to facilitate interactive conversations with multiple PDFs.  
+Users can upload PDFs, extract text, and chat with an AI agent trained on this extracted content in real time.
 
-Similarity Search: Match your questions with relevant content chunks.
+---
 
-Response Generation: Generate accurate, context-aware answers using the selected content.
+## 🎯 How It Works
 
-🔥 Key Features
-Adaptive Chunking: Sliding Window Chunking dynamically balances fine and coarse-grained data access.
+- **PDF Loading**: Upload and extract text from one or multiple PDF documents.
+- **Text Chunking**: Split extracted text into manageable chunks for better processing.
+- **Embeddings Generation**: Convert chunks into vector embeddings using an AI model.
+- **Similarity Search**: Match user queries with the most relevant text chunks.
+- **Response Generation**: Generate accurate, context-aware answers based on matched content.
 
-Multi-Document QA: Supports both simple and multi-hop queries across multiple documents.
+---
 
-Flexible File Support: Upload both PDF and TXT files.
+## 🔥 Key Features
 
-LLM Compatibility: Works with Google Gemini Pro, OpenAI GPT-3, Anthropic Claude, Llama 2, and other open-source models.
+- **Adaptive Chunking**: Dynamically balances fine and coarse-grained text chunking.
+- **Multi-Document QA**: Ask questions across one or multiple PDFs at once.
+- **Flexible File Support**: Upload PDF and TXT files.
+- **LLM Compatibility**: Supports Google Gemini Pro, OpenAI GPT-3, Anthropic Claude, Llama 2, and more.
+- **Easy Deployment**: Streamlit-based deployment for rapid setup and use.
 
-🌟 Requirements
-Streamlit: Build interactive web apps easily.
+---
 
-google-generativeai: Utilize Google's generative AI capabilities.
+## 🌟 Requirements
 
-python-dotenv: Manage sensitive API keys and configs securely.
+- **Streamlit**: Build and deploy interactive web apps easily.
+- **google-generativeai**: Use Google's powerful generative AI services.
+- **python-dotenv**: Manage API keys and secrets securely.
+- **LangChain**: For conversational retrieval and language tasks.
+- **PyPDF2**: For PDF text extraction.
+- **FAISS (CPU Version)**: Fast similarity search for dense vector embeddings.
+- **langchain_google_genai**: Integration of LangChain with Google's Generative AI SDK.
 
-LangChain: Powerful tools for conversational retrieval and language tasks.
+---
 
-PyPDF2: Extract and manipulate PDF files.
+## 🛠️ Installation
 
-FAISS (CPU version): Fast similarity search for dense vector embeddings.
+Follow these steps to set up the project:
 
-langchain_google_genai: Integration of LangChain with Google Generative AI SDK.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent.git
+   cd Multi-PDFs_ChatApp_AI-Agent
 
-▶️ Installation
-Clone the Repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent.git
-Install Dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set Up Environment Variables:
-
-Get your Google API Key from MakerSuite.
-
-Create a .env file in the project root:
-
-ini
-Copy
-Edit
-GOOGLE_API_KEY=<your-api-key-here>
-Run the Application:
-
-bash
-Copy
-Edit
-streamlit run app.py
 💡 Usage
 Launch the app using Streamlit CLI.
 
