@@ -59,31 +59,26 @@ Follow these steps to set up the project:
    cd Multi-PDFs_ChatApp_AI-Agent
 
 🚀 Usage
+
 Launch the app using the Streamlit CLI:
 
 streamlit run app.py
 
-Upload one or multiple PDF or TXT files via the sidebar.
-
-Click "Submit & Process" to extract and prepare the documents.
-
-Start chatting! Ask questions in natural language and receive answers based on your documents.
-
-Optional: View a demo on Streamlit Cloud (only visualization purposes).
+- Upload one or multiple PDF or TXT files via the sidebar.
+- Click "Submit & Process" to extract and prepare the documents.
+- Start chatting! Ask questions in natural language and receive answers based on your documents.
+- Optional: View a demo on Streamlit Cloud (only visualization purposes).
 
 📌 Highlights
+
 🔥 Real-time Question & Answering with multiple PDFs.
-
 📄 Document summarization, content retrieval, and deep multi-hop querying.
-
 🛠️ Easy integration with other LLMs and vector databases.
-
 ✨ Dynamic adaptive chunking and efficient memory usage.
-
 🔒 Secure API Key handling with python-dotenv.
-
 🧠 Works with Llama2, OpenAI GPT-3.5/4, Gemini Pro, and Anthropic Claude.
 
 📜 License
+
 Distributed under the MIT License.
 See the LICENSE file for more details.
